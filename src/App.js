@@ -1,5 +1,10 @@
+import Sky from "./Sky.jsx";
 function App() {
-  return <h1>Hello Srinath</h1>;
+  return (
+    <div>
+      <Sky />
+      <p>Hello Srinath</p>
+    </div>
+  );
 }
-
 export default App;

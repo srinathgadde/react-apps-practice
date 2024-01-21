@@ -1,7 +1,7 @@
 import React, { Children } from "react";
 import ReactDOM from "react-dom/client";
 
-// import App from "./App";
+import App from "./App";
 import Sky from "./Sky";
 
 // const reactElement = {
@@ -18,11 +18,11 @@ const anotherElement = (
     visit google
   </a>
 );
-
+const username = "srinath";
 const reactElement = React.createElement(
   "a",
   { href: "https://google.com", target: "_blank" },
-  "Click to visit Google"
+  username
 );
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
